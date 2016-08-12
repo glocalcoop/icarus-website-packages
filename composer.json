@@ -42,6 +42,7 @@
         "wpackagist-plugin/event-organiser-posterboard": ">=2.0.1",
         "wpackagist-plugin/jetpack": ">=4.2-beta2",
         "wpackagist-plugin/jetpack-module-control": ">=1.4.2",
+        "wpackagist-plugin/yikes-inc-easy-mailchimp-extender": ">=6.1.4",
         "wpackagist-plugin/members": ">=1.1.2",
         "wpackagist-plugin/nav-menu-roles": ">=1.8.2",
         "wpackagist-plugin/wp-pagenavi": ">=2.91",
