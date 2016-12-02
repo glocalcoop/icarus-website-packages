@@ -35,8 +35,8 @@
     ],
     "require": {
         "glocalcoop/icarus":"dev-master",
-        "wpackagist-plugin/caldera-forms": ">=1.4.4.1",
-        "wpackagist-plugin/event-organiser": ">=3.1.6",
+        "wpackagist-plugin/caldera-forms": ">=1.4.5",
+        "wpackagist-plugin/event-organiser": ">=3.1dana.6",
         "wpackagist-plugin/event-organiser-csv": ">=0.3.2",
         "wpackagist-plugin/event-organiser-posterboard": ">=3.0.1",
         "wpackagist-plugin/jetpack": ">=4.4.1",
