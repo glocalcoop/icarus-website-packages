@@ -1,6 +1,6 @@
 {
-    "name": "glocalcoop/icarus-wp-content",
-    "homepage": "https://github.com/glocalcoop/icarus-wp-content",
+    "name": "icarus/icarus-website-packages",
+    "homepage": "https://git.glocal.coop/icarus/icarus-website-packages",
     "authors": [
         {
             "name": "Pea, Glocal",
@@ -18,48 +18,49 @@
         {
             "type": "package",
             "package": {
-                "name": "glocalcoop/icarus",
+                "name": "icarus/icarus",
                 "version": "master",
                 "type": "wordpress-theme",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/glocalcoop/icarus-theme/archive/master.zip"
+                    "url": "https://git.glocal.coop/icarus/icarus-theme/repository/archive.zip"
                 },
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/glocalcoop/icarus-theme.git",
+                    "url": "git@git.glocal.coop:icarus/icarus-theme.git",
                     "reference": "master"
                 }
             }
         }
     ],
     "require": {
-        "glocalcoop/icarus":"dev-master",
-        "wpackagist-plugin/caldera-forms": ">=1.4.5",
-        "wpackagist-plugin/event-organiser": ">=3.1dana.6",
-        "wpackagist-plugin/event-organiser-csv": ">=0.3.2",
-        "wpackagist-plugin/event-organiser-posterboard": ">=3.0.1",
-        "wpackagist-plugin/jetpack": ">=4.4.1",
-        "wpackagist-plugin/jetpack-module-control": ">=1.4.2",
-        "wpackagist-plugin/yikes-inc-easy-mailchimp-extender": ">=6.2.3",
-        "wpackagist-plugin/members": ">=1.1.2",
-        "wpackagist-plugin/nav-menu-roles": ">=1.8.3",
-        "wpackagist-plugin/wp-pagenavi": ">=2.91",
-        "wpackagist-plugin/shortcode-ui": ">=0.7.0",
-        "wpackagist-plugin/siteorigin-panels": ">=2.4.19",
-        "wpackagist-plugin/so-widgets-bundle": ">=1.7.2",
-    	"wpackagist-plugin/widgets-for-siteorigin": ">=1.2.2",
-        "wpackagist-plugin/user-switching": ">=1.0.9",
-        "wpackagist-plugin/widget-css-classes": ">=1.3.0",
-        "wpackagist-plugin/wordpress-importer": ">=0.6.3",
-        "wpackagist-plugin/wp-piwik": ">=1.0.12"
+        "icarus/icarus":"dev-master",
+        "wpackagist-plugin/breadcrumb-navxt": "^5.6.0",
+        "wpackagist-plugin/caldera-forms": "^1.4.7",
+        "wpackagist-plugin/event-organiser": "^3.1.7",
+        "wpackagist-plugin/event-organiser-csv": "^0.3.2",
+        "wpackagist-plugin/event-organiser-posterboard": "^3.0.1",
+        "wpackagist-plugin/jetpack": "^4.5-beta2",
+        "wpackagist-plugin/jetpack-module-control": "^1.5",
+        "wpackagist-plugin/yikes-inc-easy-mailchimp-extender": "^6.2.4",
+        "wpackagist-plugin/members": "^1.1.2",
+        "wpackagist-plugin/nav-menu-roles": "^1.8.6",
+        "wpackagist-plugin/wp-pagenavi": "^2.91",
+        "wpackagist-plugin/shortcode-ui": "^0.7.0",
+        "wpackagist-plugin/siteorigin-panels": "^2.4.21",
+        "wpackagist-plugin/so-widgets-bundle": "^1.7.2",
+        "wpackagist-plugin/widgets-for-siteorigin": "^1.3.2",
+        "wpackagist-plugin/widget-css-classes": "^1.4.0",
+        "wpackagist-plugin/wordpress-importer": "^0.6.3",
+        "wpackagist-plugin/wp-piwik": "^1.0.14"
     },
     "require-dev": {
-        "wpackagist-plugin/developer": ">=1.2.6",
-        "wpackagist-plugin/which-template": ">=4.0",
-        "wpackagist-plugin/wp-log-viewer": "1.0.7",
-        "wpackagist-plugin/customizer-reset-by-wpzoom": "1.0.1",
-        "phpunit/phpunit": "4.8.*"
+      "wpackagist-plugin/customizer-reset-by-wpzoom": "1.0.1",
+      "wpackagist-plugin/developer": "^1.2.6",
+      "wpackagist-plugin/user-switching": "^1.0.9",
+      "wpackagist-plugin/which-template": "^4.0",
+      "wpackagist-plugin/wp-log-viewer": "^1.0.7",
+      "phpunit/phpunit": "4.8.*"
     },
     "suggest": {
         "wpackagist-plugin/buoy": "Better Angels' Buoy is a community-based crisis response system."
