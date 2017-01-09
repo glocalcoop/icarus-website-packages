@@ -27,7 +27,7 @@
                 },
                 "source": {
                     "type": "git",
-                    "url": "https://git.glocal.coop/icarus/icarus-website-packages.git",
+                    "url": "https://git.glocal.coop/icarus/icarus-theme.git",
                     "reference": "master"
                 }
             }
